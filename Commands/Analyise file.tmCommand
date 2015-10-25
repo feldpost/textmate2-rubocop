@@ -6,9 +6,8 @@
 	<string>saveActiveFile</string>
 	<key>command</key>
 	<string>#!/usr/bin/env bash
-
 cd "$TM_PROJECT_DIRECTORY"
-ruby "$TM_BUNDLE_SUPPORT/bin/analyse_current_file"</string>
+$HOME/.rbenv/shims/ruby "$TM_BUNDLE_SUPPORT/bin/analyse_current_file"</string>
 	<key>input</key>
 	<string>document</string>
 	<key>inputFormat</key>

@@ -10,7 +10,7 @@
 
 
 cd "$TM_PROJECT_DIRECTORY"
-ruby "$TM_BUNDLE_SUPPORT/bin/analyse_selected_files"</string>
+$HOME/.rbenv/shims/ruby "$TM_BUNDLE_SUPPORT/bin/analyse_selected_files"</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>inputFormat</key>

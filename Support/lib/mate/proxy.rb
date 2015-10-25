@@ -70,7 +70,8 @@ class Proxy
   def custom_formatter_options
     {
       require: File.expand_path(ENV['TM_BUNDLE_SUPPORT'] + '/lib/mate/formatter/base.rb'),
-      format: 'Mate::Formatter::Base'
+      format: 'Mate::Formatter::Base',
+      config: 'config/.rubocop.yml'
     }
   end
 end
